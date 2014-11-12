@@ -8,6 +8,8 @@ using Microsoft.Owin.Security.Google;
 using Owin;
 using System;
 using FactItSystem.Web.Models;
+using FactItSystem.Data.Models;
+using FactItSystem.Data;
 
 namespace FactItSystem.Web
 {

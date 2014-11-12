@@ -11,6 +11,7 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Owin;
 using FactItSystem.Web.Models;
+using FactItSystem.Data.Models;
 
 namespace FactItSystem.Web.Controllers
 {

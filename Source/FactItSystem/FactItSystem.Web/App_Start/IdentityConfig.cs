@@ -4,6 +4,8 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using FactItSystem.Web.Models;
+using FactItSystem.Data.Models;
+using FactItSystem.Data;
 
 namespace FactItSystem.Web
 {
