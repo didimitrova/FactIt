@@ -252,6 +252,10 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\FactItSystem.Data.Common\FactItSystem.Data.Common.csproj">
+      <Project>{2b5b5c7e-cd74-4e14-b1eb-71ad82d78fe5}</Project>
+      <Name>FactItSystem.Data.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\FactItSystem.Data.Models\FactItSystem.Data.Models.csproj">
       <Project>{8a0c4210-24ac-4b65-9df5-91be0a4d4bda}</Project>
       <Name>FactItSystem.Data.Models</Name>

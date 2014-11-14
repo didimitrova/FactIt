@@ -54,10 +54,21 @@
   <ItemGroup>
     <Compile Include="ApplicationUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tag.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FactItSystem.Common\FactItSystem.Common.csproj">
+      <Project>{885c99c3-cbf9-4c9d-808b-d5ece298e547}</Project>
+      <Name>FactItSystem.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FactItSystem.Data.Common\FactItSystem.Data.Common.csproj">
+      <Project>{2b5b5c7e-cd74-4e14-b1eb-71ad82d78fe5}</Project>
+      <Name>FactItSystem.Data.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

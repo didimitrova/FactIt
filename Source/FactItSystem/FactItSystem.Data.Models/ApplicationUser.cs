@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNet.Identity;
+﻿using FactItSystem.Data.Common.Models;
+using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using System;
 using System.Collections.Generic;
@@ -9,8 +10,12 @@ using System.Threading.Tasks;
 
 namespace FactItSystem.Data.Models
 {
-    public class ApplicationUser : IdentityUser
+    public class ApplicationUser : IdentityUser, IAuditInfo, IDeletableEntity
     {
+        public ApplicationUser()
+        {
+            this.CreatedOn = DateTime.Now;
+        }
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)
         {
             // Note the authenticationType must match the one defined in CookieAuthenticationOptions.AuthenticationType
@@ -18,5 +23,15 @@ namespace FactItSystem.Data.Models
             // Add custom user claims here
             return userIdentity;
         }
+
+        public bool IsDeleted { get; set; }
+
+        public DateTime? DeletedOn { get; set; }
+
+        public DateTime CreatedOn { get; set; }
+
+        public bool PreserveCreatedOn { get; set; }
+
+        public DateTime? ModifiedOn { get; set; }
     }
 }

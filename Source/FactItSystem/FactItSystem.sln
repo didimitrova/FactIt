@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactItSystem.Web", "FactItS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactItSystem.Web.Tests", "FactItSystem.Web.Tests\FactItSystem.Web.Tests.csproj", "{E31F6E3D-AB8D-4A63-A84C-1ABDC322AC8E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactItSystem.Data.Common", "FactItSystem.Data.Common\FactItSystem.Data.Common.csproj", "{2B5B5C7E-CD74-4E14-B1EB-71AD82D78FE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{E31F6E3D-AB8D-4A63-A84C-1ABDC322AC8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E31F6E3D-AB8D-4A63-A84C-1ABDC322AC8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E31F6E3D-AB8D-4A63-A84C-1ABDC322AC8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B5B5C7E-CD74-4E14-B1EB-71AD82D78FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B5B5C7E-CD74-4E14-B1EB-71AD82D78FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B5B5C7E-CD74-4E14-B1EB-71AD82D78FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B5B5C7E-CD74-4E14-B1EB-71AD82D78FE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,5 +60,6 @@ Global
 		{8A0C4210-24AC-4B65-9DF5-91BE0A4D4BDA} = {640F3DC4-62C8-4320-B4D4-A9443C7FC858}
 		{1177B499-1CE5-4194-A51A-C0B98BE98F8C} = {CCE38E41-E6C1-4249-B876-9CE911F9AB86}
 		{E31F6E3D-AB8D-4A63-A84C-1ABDC322AC8E} = {CCE38E41-E6C1-4249-B876-9CE911F9AB86}
+		{2B5B5C7E-CD74-4E14-B1EB-71AD82D78FE5} = {640F3DC4-62C8-4320-B4D4-A9443C7FC858}
 	EndGlobalSection
 EndGlobal
