@@ -1,4 +1,4 @@
-﻿namespace FactItSystem.Data.Common.Models.Repository
+﻿namespace FactItSystem.Data.Common.Repository
 {
     using System;
     using System.Linq;

@@ -44,8 +44,8 @@
     <Compile Include="Models\IAuditInfo.cs" />
     <Compile Include="Models\IDeletableEntity.cs" />
     <Compile Include="Models\IOrderable.cs" />
-    <Compile Include="Models\Repository\IDeletableEntityRepository.cs" />
-    <Compile Include="Models\Repository\IRepository.cs" />
+    <Compile Include="Repository\IDeletableEntityRepository.cs" />
+    <Compile Include="Repository\IRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
